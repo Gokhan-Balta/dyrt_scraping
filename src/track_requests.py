@@ -14,10 +14,10 @@ async def fetch_campgrounds():
         response = await client.get(url, params=params)
         if response.status_code == 200:
             data = response.json()
-            print(f"Toplam Kamp Alanı: {len(data['data'])}")
+            print(f"total camping : {len(data['data'])}")
             return data['data']
         else:
-            print(f"Hata oluştu: {response.status_code}")
+            print(f"Error : {response.status_code}")
             return []
 
 # To pull data

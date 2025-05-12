@@ -1,4 +1,3 @@
-# scheduler.py
 import asyncio
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from src.scraper.dyrt_scraper import fetch_and_save
