@@ -1,0 +1,21 @@
+# Python Bytecode Files
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
+
+# Environment Variables
+.env
+
+# IDE Settings (VSCode, PyCharm, vs.)
+.vscode/
+.idea/
+
+# Docker
+docker-compose.yml
+
+# Other Files
+*.log
+*.bak
+*.swp
